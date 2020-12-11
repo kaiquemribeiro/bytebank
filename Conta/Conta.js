@@ -22,7 +22,7 @@ export class Conta {
     get saldo(){
         return this._saldo; //aqui eu consigo apenas acessar o saldo, ja que existe apenas o get
     }
-
+    
     sacar(valor){
         // vazio para não permitir saque sem passar pelo metodo da classe
         throw new Error ("Metodo sacar da Conta é abstrato");
